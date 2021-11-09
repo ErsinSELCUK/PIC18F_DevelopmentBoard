@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -390,4 +390,26 @@ VPP
 Wire Wire Line
 	3350 2850 3300 2850
 Connection ~ 3300 2850
+Text GLabel 4500 4350 0    50   Output ~ 0
+LCD_BACKGROUND
+Text GLabel 4500 4450 0    50   Output ~ 0
+LCD_RS
+Text GLabel 4500 4550 0    50   Output ~ 0
+LCD_E
+Text GLabel 6700 4050 2    50   Output ~ 0
+LCD_D0
+Text GLabel 6700 4150 2    50   Output ~ 0
+LCD_D1
+Text GLabel 6700 4250 2    50   Output ~ 0
+LCD_D2
+Text GLabel 6700 4350 2    50   Output ~ 0
+LCD_D3
+Text GLabel 6700 4450 2    50   Output ~ 0
+LCD_D4
+Text GLabel 6700 4550 2    50   Output ~ 0
+LCD_D5
+Text GLabel 6700 4650 2    50   Output ~ 0
+LCD_D6
+Text GLabel 6700 4750 2    50   Output ~ 0
+LCD_D7
 $EndSCHEMATC

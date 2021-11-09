@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "PIC18F Gelistirme Karti"
 Date ""
 Rev "1.0"
@@ -21,4 +21,12 @@ F1 "MCU.sch" 50
 $EndSheet
 Text Notes 5400 3900 0    197  ~ 39
 MCU
+$Sheet
+S 1150 1200 1700 1150
+U 618AACE5
+F0 "LCD" 50
+F1 "LCD.sch" 50
+$EndSheet
+Text Notes 1650 1900 0    197  ~ 39
+LCD
 $EndSCHEMATC
