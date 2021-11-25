@@ -1,0 +1,295 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_DIP_x08 SW?
+U 1 1 6199A81A
+P 5250 3800
+F 0 "SW?" H 5250 4467 50  0000 C CNN
+F 1 "SW_DIP_x08" H 5250 4376 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm" H 5250 3800 50  0001 C CNN
+F 3 "~" H 5250 3800 50  0001 C CNN
+	1    5250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6199BC56
+P 6150 3250
+F 0 "R?" V 5945 3250 50  0001 C CNN
+F 1 "330R" V 6036 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6150 3250 50  0001 C CNN
+F 3 "~" H 6150 3250 50  0001 C CNN
+	1    6150 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 6199D3B4
+P 6350 3250
+F 0 "D?" H 6350 3137 50  0001 C CNN
+F 1 "LED_Small_ALT" H 6350 3136 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 6350 3250 50  0001 C CNN
+F 3 "~" V 6350 3250 50  0001 C CNN
+	1    6350 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6199FF22
+P 6150 3400
+F 0 "R?" V 5945 3400 50  0001 C CNN
+F 1 "330R" V 6036 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6150 3400 50  0001 C CNN
+F 3 "~" H 6150 3400 50  0001 C CNN
+	1    6150 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 6199FF28
+P 6350 3400
+F 0 "D?" H 6350 3287 50  0001 C CNN
+F 1 "LED_Small_ALT" H 6350 3286 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 6350 3400 50  0001 C CNN
+F 3 "~" V 6350 3400 50  0001 C CNN
+	1    6350 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 619A0194
+P 6150 3550
+F 0 "R?" V 5945 3550 50  0001 C CNN
+F 1 "330R" V 6036 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6150 3550 50  0001 C CNN
+F 3 "~" H 6150 3550 50  0001 C CNN
+	1    6150 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 619A019A
+P 6350 3550
+F 0 "D?" H 6350 3437 50  0001 C CNN
+F 1 "LED_Small_ALT" H 6350 3436 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 6350 3550 50  0001 C CNN
+F 3 "~" V 6350 3550 50  0001 C CNN
+	1    6350 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 619A04EC
+P 6150 3700
+F 0 "R?" V 5945 3700 50  0001 C CNN
+F 1 "330R" V 6036 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6150 3700 50  0001 C CNN
+F 3 "~" H 6150 3700 50  0001 C CNN
+	1    6150 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 619A04F2
+P 6350 3700
+F 0 "D?" H 6350 3587 50  0001 C CNN
+F 1 "LED_Small_ALT" H 6350 3586 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 6350 3700 50  0001 C CNN
+F 3 "~" V 6350 3700 50  0001 C CNN
+	1    6350 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 619A17EA
+P 6150 3850
+F 0 "R?" V 5945 3850 50  0001 C CNN
+F 1 "330R" V 6036 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6150 3850 50  0001 C CNN
+F 3 "~" H 6150 3850 50  0001 C CNN
+	1    6150 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 619A17F0
+P 6350 3850
+F 0 "D?" H 6350 3737 50  0001 C CNN
+F 1 "LED_Small_ALT" H 6350 3736 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 6350 3850 50  0001 C CNN
+F 3 "~" V 6350 3850 50  0001 C CNN
+	1    6350 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 619A17F6
+P 6150 4000
+F 0 "R?" V 5945 4000 50  0001 C CNN
+F 1 "330R" V 6036 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6150 4000 50  0001 C CNN
+F 3 "~" H 6150 4000 50  0001 C CNN
+	1    6150 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 619A17FC
+P 6350 4000
+F 0 "D?" H 6350 3887 50  0001 C CNN
+F 1 "LED_Small_ALT" H 6350 3886 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 6350 4000 50  0001 C CNN
+F 3 "~" V 6350 4000 50  0001 C CNN
+	1    6350 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 619A1802
+P 6150 4150
+F 0 "R?" V 5945 4150 50  0001 C CNN
+F 1 "330R" V 6036 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6150 4150 50  0001 C CNN
+F 3 "~" H 6150 4150 50  0001 C CNN
+	1    6150 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 619A1808
+P 6350 4150
+F 0 "D?" H 6350 4037 50  0001 C CNN
+F 1 "LED_Small_ALT" H 6350 4036 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 6350 4150 50  0001 C CNN
+F 3 "~" V 6350 4150 50  0001 C CNN
+	1    6350 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 619A180E
+P 6150 4300
+F 0 "R?" V 5945 4300 50  0001 C CNN
+F 1 "330R" V 6036 4300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6150 4300 50  0001 C CNN
+F 3 "~" H 6150 4300 50  0001 C CNN
+	1    6150 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 619A1814
+P 6350 4300
+F 0 "D?" H 6350 4187 50  0001 C CNN
+F 1 "LED_Small_ALT" H 6350 4186 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 6350 4300 50  0001 C CNN
+F 3 "~" V 6350 4300 50  0001 C CNN
+	1    6350 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 3250 5600 3400
+Wire Wire Line
+	5600 3400 5550 3400
+Wire Wire Line
+	5600 3250 6050 3250
+Wire Wire Line
+	5550 3500 5650 3500
+Wire Wire Line
+	5650 3500 5650 3400
+Wire Wire Line
+	5650 3400 6050 3400
+Wire Wire Line
+	6050 3550 5700 3550
+Wire Wire Line
+	5700 3550 5700 3600
+Wire Wire Line
+	5700 3600 5550 3600
+Wire Wire Line
+	5550 3700 6050 3700
+Wire Wire Line
+	6050 3850 5750 3850
+Wire Wire Line
+	5750 3850 5750 3800
+Wire Wire Line
+	5750 3800 5550 3800
+Wire Wire Line
+	5550 3900 5700 3900
+Wire Wire Line
+	5700 3900 5700 4000
+Wire Wire Line
+	5700 4000 6050 4000
+Wire Wire Line
+	5550 4000 5650 4000
+Wire Wire Line
+	5650 4000 5650 4150
+Wire Wire Line
+	5650 4150 6050 4150
+Wire Wire Line
+	5550 4100 5600 4100
+Wire Wire Line
+	5600 4100 5600 4300
+Wire Wire Line
+	5600 4300 6050 4300
+Wire Wire Line
+	6450 3250 6450 3400
+Connection ~ 6450 3400
+Wire Wire Line
+	6450 3400 6450 3550
+Connection ~ 6450 3550
+Wire Wire Line
+	6450 3550 6450 3700
+Connection ~ 6450 3700
+Wire Wire Line
+	6450 3700 6450 3850
+Connection ~ 6450 3850
+Wire Wire Line
+	6450 3850 6450 4000
+Connection ~ 6450 4000
+Wire Wire Line
+	6450 4000 6450 4150
+Connection ~ 6450 4150
+Wire Wire Line
+	6450 4150 6450 4300
+$Comp
+L power:GND #PWR?
+U 1 1 619A705A
+P 6450 4300
+F 0 "#PWR?" H 6450 4050 50  0001 C CNN
+F 1 "GND" H 6455 4127 50  0000 C CNN
+F 2 "" H 6450 4300 50  0001 C CNN
+F 3 "" H 6450 4300 50  0001 C CNN
+	1    6450 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6450 4300
+Text GLabel 4950 3400 0    50   Input ~ 0
+LED1
+Text GLabel 4950 3500 0    50   Input ~ 0
+LED2
+Text GLabel 4950 3600 0    50   Input ~ 0
+LED2
+Text GLabel 4950 3700 0    50   Input ~ 0
+LED3
+Text GLabel 4950 3800 0    50   Input ~ 0
+LED4
+Text GLabel 4950 3900 0    50   Input ~ 0
+LED5
+Text GLabel 4950 4000 0    50   Input ~ 0
+LED6
+Text GLabel 4950 4100 0    50   Input ~ 0
+LED7
+$EndSCHEMATC

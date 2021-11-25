@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -52,7 +52,7 @@ U 1 1 618AD363
 P 8800 3300
 F 0 "RV?" H 8730 3346 50  0000 R CNN
 F 1 "R_POT" H 8730 3255 50  0000 R CNN
-F 2 "" H 8800 3300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical" H 8800 3300 50  0001 C CNN
 F 3 "~" H 8800 3300 50  0001 C CNN
 	1    8800 3300
 	-1   0    0    -1  
@@ -315,4 +315,70 @@ Text GLabel 4050 4400 0    50   Input ~ 0
 LCD_D6
 Text GLabel 4050 4500 0    50   Input ~ 0
 LCD_D7
+$Comp
+L Device:CP_Small C?
+U 1 1 61997B2D
+P 6150 2400
+F 0 "C?" H 6238 2446 50  0000 L CNN
+F 1 "10u 16V" H 6238 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 6150 2400 50  0001 C CNN
+F 3 "~" H 6150 2400 50  0001 C CNN
+	1    6150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6199832D
+P 6150 2300
+F 0 "#PWR?" H 6150 2150 50  0001 C CNN
+F 1 "+5V" H 6165 2473 50  0000 C CNN
+F 2 "" H 6150 2300 50  0001 C CNN
+F 3 "" H 6150 2300 50  0001 C CNN
+	1    6150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 619987BC
+P 6150 2500
+F 0 "#PWR?" H 6150 2250 50  0001 C CNN
+F 1 "GND" H 6200 2350 50  0000 R CNN
+F 2 "" H 6150 2500 50  0001 C CNN
+F 3 "" H 6150 2500 50  0001 C CNN
+	1    6150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 619991CD
+P 5700 2400
+F 0 "C?" H 5792 2446 50  0000 L CNN
+F 1 "100n" H 5792 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5700 2400 50  0001 C CNN
+F 3 "~" H 5700 2400 50  0001 C CNN
+	1    5700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 619997D8
+P 5700 2300
+F 0 "#PWR?" H 5700 2150 50  0001 C CNN
+F 1 "+5V" H 5715 2473 50  0000 C CNN
+F 2 "" H 5700 2300 50  0001 C CNN
+F 3 "" H 5700 2300 50  0001 C CNN
+	1    5700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61999A32
+P 5700 2500
+F 0 "#PWR?" H 5700 2250 50  0001 C CNN
+F 1 "GND" H 5750 2350 50  0000 R CNN
+F 2 "" H 5700 2500 50  0001 C CNN
+F 3 "" H 5700 2500 50  0001 C CNN
+	1    5700 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
