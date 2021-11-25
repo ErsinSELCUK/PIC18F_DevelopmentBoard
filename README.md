@@ -16,5 +16,7 @@ KiCad ile PIC18F Geliştirme Kartı Tasarımı
 
    https://youtu.be/hvJfve5apJ0
 
-   
+3. LED ve ADC Bloğu Tasarımı
+
+   https://youtu.be/66v_Mt59N9U
 
