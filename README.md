@@ -20,5 +20,6 @@ KiCad ile PIC18F Geliştirme Kartı Tasarımı
 
    https://youtu.be/66v_Mt59N9U
    
-4. DISPLAY ve BUZZER Bloğu Tasarımı
+4. DISPLAY ve BUZZER Bloğu Tasarımı 
+
    https://youtu.be/vx3aJZlbUMc
