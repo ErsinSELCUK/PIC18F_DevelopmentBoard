@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -277,9 +277,9 @@ F 3 "" H 6450 4300 50  0001 C CNN
 $EndComp
 Connection ~ 6450 4300
 Text GLabel 4950 3400 0    50   Input ~ 0
-LED1
+LED0
 Text GLabel 4950 3500 0    50   Input ~ 0
-LED2
+LED1
 Text GLabel 4950 3600 0    50   Input ~ 0
 LED2
 Text GLabel 4950 3700 0    50   Input ~ 0

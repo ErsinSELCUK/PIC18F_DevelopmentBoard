@@ -1,0 +1,356 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Switching:LM2576S-5 U?
+U 1 1 61D071A3
+P 6200 2150
+F 0 "U?" H 6200 2517 50  0000 C CNN
+F 1 "LM2576S-5" H 6200 2426 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 6200 1900 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 6200 2150 50  0001 C CNN
+	1    6200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N5822 D?
+U 1 1 61D08D42
+P 6850 2700
+F 0 "D?" V 6804 2779 50  0000 L CNN
+F 1 "SS14" V 6895 2779 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 6850 2525 50  0001 C CNN
+F 3 "" H 6850 2700 50  0001 C CNN
+	1    6850 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 61D0A6CE
+P 7350 2250
+F 0 "L?" H 7350 2465 50  0000 C CNN
+F 1 "100uH" H 7350 2374 50  0000 C CNN
+F 2 "Inductor_SMD:L_7.3x7.3_H3.5" H 7350 2250 50  0001 C CNN
+F 3 "~" H 7350 2250 50  0001 C CNN
+	1    7350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 61D0BDC5
+P 4600 2650
+F 0 "C?" H 4718 2696 50  0000 L CNN
+F 1 "100u35V" H 4718 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4638 2500 50  0001 C CNN
+F 3 "~" H 4600 2650 50  0001 C CNN
+	1    4600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 61D0CAB7
+P 7800 2700
+F 0 "C?" H 7918 2746 50  0000 L CNN
+F 1 "470u16V" H 7918 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x6.7" H 7838 2550 50  0001 C CNN
+F 3 "~" H 7800 2700 50  0001 C CNN
+	1    7800 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2500 4600 2050
+Wire Wire Line
+	4600 2050 5250 2050
+$Comp
+L power:GND #PWR?
+U 1 1 61D0D52E
+P 4600 3000
+F 0 "#PWR?" H 4600 2750 50  0001 C CNN
+F 1 "GND" H 4605 2827 50  0000 C CNN
+F 2 "" H 4600 3000 50  0001 C CNN
+F 3 "" H 4600 3000 50  0001 C CNN
+	1    4600 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3000 4600 2800
+$Comp
+L Device:CP C?
+U 1 1 61D0DD3F
+P 4000 2650
+F 0 "C?" H 4118 2696 50  0000 L CNN
+F 1 "100u35V" H 4118 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4038 2500 50  0001 C CNN
+F 3 "~" H 4000 2650 50  0001 C CNN
+	1    4000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2500 4000 2050
+Wire Wire Line
+	4000 2050 4600 2050
+Connection ~ 4600 2050
+$Comp
+L power:GND #PWR?
+U 1 1 61D0E33B
+P 4000 3000
+F 0 "#PWR?" H 4000 2750 50  0001 C CNN
+F 1 "GND" H 4005 2827 50  0000 C CNN
+F 2 "" H 4000 3000 50  0001 C CNN
+F 3 "" H 4000 3000 50  0001 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3000 4000 2800
+$Comp
+L Device:C_Small C?
+U 1 1 61D113A5
+P 5250 2650
+AR Path="/61C96DC0/61D113A5" Ref="C?"  Part="1" 
+AR Path="/61D06C0B/61D113A5" Ref="C?"  Part="1" 
+F 0 "C?" H 5342 2696 50  0000 L CNN
+F 1 "100n" H 5342 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5250 2650 50  0001 C CNN
+F 3 "~" H 5250 2650 50  0001 C CNN
+	1    5250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61D113DB
+P 5250 3000
+F 0 "#PWR?" H 5250 2750 50  0001 C CNN
+F 1 "GND" H 5255 2827 50  0000 C CNN
+F 2 "" H 5250 3000 50  0001 C CNN
+F 3 "" H 5250 3000 50  0001 C CNN
+	1    5250 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3000 5250 2750
+Wire Wire Line
+	5250 2550 5250 2050
+Connection ~ 5250 2050
+Wire Wire Line
+	5250 2050 5700 2050
+$Comp
+L power:GND #PWR?
+U 1 1 61D12006
+P 6200 3000
+F 0 "#PWR?" H 6200 2750 50  0001 C CNN
+F 1 "GND" H 6205 2827 50  0000 C CNN
+F 2 "" H 6200 3000 50  0001 C CNN
+F 3 "" H 6200 3000 50  0001 C CNN
+	1    6200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3000 6200 2550
+Wire Wire Line
+	5700 2250 5700 2550
+Wire Wire Line
+	5700 2550 6200 2550
+Connection ~ 6200 2550
+Wire Wire Line
+	6200 2550 6200 2450
+Wire Wire Line
+	7100 2250 6850 2250
+Wire Wire Line
+	6700 2050 6850 2050
+Wire Wire Line
+	6850 2050 6850 1900
+Wire Wire Line
+	6850 1900 7800 1900
+Wire Wire Line
+	7800 1900 7800 2250
+Wire Wire Line
+	7800 2250 7600 2250
+Wire Wire Line
+	6850 2550 6850 2250
+Connection ~ 6850 2250
+Wire Wire Line
+	6850 2250 6700 2250
+$Comp
+L power:GND #PWR?
+U 1 1 61D13C7E
+P 6850 3000
+F 0 "#PWR?" H 6850 2750 50  0001 C CNN
+F 1 "GND" H 6855 2827 50  0000 C CNN
+F 2 "" H 6850 3000 50  0001 C CNN
+F 3 "" H 6850 3000 50  0001 C CNN
+	1    6850 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3000 6850 2850
+$Comp
+L Device:CP C?
+U 1 1 61D145FA
+P 8450 2700
+F 0 "C?" H 8568 2746 50  0000 L CNN
+F 1 "470u16V" H 8568 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x6.7" H 8488 2550 50  0001 C CNN
+F 3 "~" H 8450 2700 50  0001 C CNN
+	1    8450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2550 7800 2250
+Connection ~ 7800 2250
+Wire Wire Line
+	8450 2550 8450 2250
+Wire Wire Line
+	8450 2250 7800 2250
+$Comp
+L power:GND #PWR?
+U 1 1 61D14E75
+P 7800 3000
+F 0 "#PWR?" H 7800 2750 50  0001 C CNN
+F 1 "GND" H 7805 2827 50  0000 C CNN
+F 2 "" H 7800 3000 50  0001 C CNN
+F 3 "" H 7800 3000 50  0001 C CNN
+	1    7800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3000 7800 2850
+$Comp
+L power:GND #PWR?
+U 1 1 61D1543C
+P 8450 3000
+F 0 "#PWR?" H 8450 2750 50  0001 C CNN
+F 1 "GND" H 8455 2827 50  0000 C CNN
+F 2 "" H 8450 3000 50  0001 C CNN
+F 3 "" H 8450 3000 50  0001 C CNN
+	1    8450 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 3000 8450 2850
+$Comp
+L Device:C_Small C?
+U 1 1 61D15B4C
+P 9050 2700
+AR Path="/61C96DC0/61D15B4C" Ref="C?"  Part="1" 
+AR Path="/61D06C0B/61D15B4C" Ref="C?"  Part="1" 
+F 0 "C?" H 9142 2746 50  0000 L CNN
+F 1 "100n" H 9142 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9050 2700 50  0001 C CNN
+F 3 "~" H 9050 2700 50  0001 C CNN
+	1    9050 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2600 9050 2250
+Wire Wire Line
+	9050 2250 8450 2250
+Connection ~ 8450 2250
+$Comp
+L power:GND #PWR?
+U 1 1 61D16506
+P 9050 3000
+F 0 "#PWR?" H 9050 2750 50  0001 C CNN
+F 1 "GND" H 9055 2827 50  0000 C CNN
+F 2 "" H 9050 3000 50  0001 C CNN
+F 3 "" H 9050 3000 50  0001 C CNN
+	1    9050 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2800 9050 3000
+$Comp
+L power:+5V #PWR?
+U 1 1 61D1C475
+P 9050 2100
+F 0 "#PWR?" H 9050 1950 50  0001 C CNN
+F 1 "+5V" H 9065 2273 50  0000 C CNN
+F 2 "" H 9050 2100 50  0001 C CNN
+F 3 "" H 9050 2100 50  0001 C CNN
+	1    9050 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2100 9050 2250
+Connection ~ 9050 2250
+$Comp
+L Diode:1N4007 D?
+U 1 1 61D1D16F
+P 3550 2050
+F 0 "D?" H 3550 1834 50  0000 C CNN
+F 1 "M7" H 3550 1925 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 3550 1875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3550 2050 50  0001 C CNN
+	1    3550 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 2050 4000 2050
+Connection ~ 4000 2050
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 61D1E3C5
+P 2350 2450
+F 0 "J?" H 2268 2575 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 2268 2576 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 2350 2450 50  0001 C CNN
+F 3 "~" H 2350 2450 50  0001 C CNN
+	1    2350 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2450 3100 2450
+Wire Wire Line
+	3100 2450 3100 2050
+Wire Wire Line
+	3100 2050 3400 2050
+$Comp
+L power:GND #PWR?
+U 1 1 61D1F8E8
+P 2550 2550
+F 0 "#PWR?" H 2550 2300 50  0001 C CNN
+F 1 "GND" H 2555 2377 50  0000 C CNN
+F 2 "" H 2550 2550 50  0001 C CNN
+F 3 "" H 2550 2550 50  0001 C CNN
+	1    2550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack J?
+U 1 1 61D2A721
+P 2350 1900
+F 0 "J?" H 2407 2225 50  0000 C CNN
+F 1 "Barrel_Jack" H 2407 2134 50  0000 C CNN
+F 2 "" H 2400 1860 50  0001 C CNN
+F 3 "~" H 2400 1860 50  0001 C CNN
+	1    2350 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1800 3100 1800
+Wire Wire Line
+	3100 1800 3100 2050
+Connection ~ 3100 2050
+$Comp
+L power:GND #PWR?
+U 1 1 61D2BDC6
+P 2650 2000
+F 0 "#PWR?" H 2650 1750 50  0001 C CNN
+F 1 "GND" H 2655 1827 50  0000 C CNN
+F 2 "" H 2650 2000 50  0001 C CNN
+F 3 "" H 2650 2000 50  0001 C CNN
+	1    2650 2000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

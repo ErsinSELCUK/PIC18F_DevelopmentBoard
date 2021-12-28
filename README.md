@@ -19,4 +19,15 @@ KiCad ile PIC18F Geliştirme Kartı Tasarımı
 3. LED ve ADC Bloğu Tasarımı
 
    https://youtu.be/66v_Mt59N9U
+   
+4. DISPLAY ve BUZZER Blok Tasarımı
 
+   https://youtu.be/vx3aJZlbUMc
+   
+5. RS232, RS485, CANBUS Blok Tasarımı
+
+	https://youtu.be/LbF4WCmnxF0
+	
+6. BUTON, KEYPAD, ROTARY ENCODER Blok Tasarımı
+
+	https://youtu.be/hq1_8O-0sWk

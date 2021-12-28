@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -460,4 +460,115 @@ Text GLabel 7650 4150 0    50   Input ~ 0
 B_MCU
 Text GLabel 7650 4050 0    50   Input ~ 0
 A_MCU
+$Comp
+L Device:Buzzer BZ?
+U 1 1 61A062F8
+P 10000 3900
+F 0 "BZ?" H 10152 3929 50  0000 L CNN
+F 1 "Buzzer" H 10152 3838 50  0000 L CNN
+F 2 "Buzzer_Beeper:MagneticBuzzer_PUI_AT-0927-TT-6-R" V 9975 4000 50  0001 C CNN
+F 3 "~" V 9975 4000 50  0001 C CNN
+	1    10000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61A06C6A
+P 9900 3800
+F 0 "#PWR?" H 9900 3650 50  0001 C CNN
+F 1 "+5V" V 9915 3928 50  0000 L CNN
+F 2 "" H 9900 3800 50  0001 C CNN
+F 3 "" H 9900 3800 50  0001 C CNN
+	1    9900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC817 Q?
+U 1 1 61A07801
+P 9800 4200
+F 0 "Q?" H 9991 4246 50  0000 L CNN
+F 1 "BC817" H 9991 4155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10000 4125 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 9800 4200 50  0001 L CNN
+	1    9800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 61A0864C
+P 9300 4200
+F 0 "R?" V 9095 4200 50  0000 C CNN
+F 1 "4k7" V 9186 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9300 4200 50  0001 C CNN
+F 3 "~" H 9300 4200 50  0001 C CNN
+	1    9300 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 61A08DE0
+P 9550 4400
+F 0 "R?" V 9345 4400 50  0000 C CNN
+F 1 "3k9" V 9436 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9550 4400 50  0001 C CNN
+F 3 "~" H 9550 4400 50  0001 C CNN
+	1    9550 4400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9600 4200 9550 4200
+Wire Wire Line
+	9550 4300 9550 4200
+Connection ~ 9550 4200
+Wire Wire Line
+	9550 4200 9400 4200
+Wire Wire Line
+	9900 4400 9900 4600
+Wire Wire Line
+	9900 4600 9550 4600
+Wire Wire Line
+	9550 4600 9550 4500
+$Comp
+L power:GND #PWR?
+U 1 1 61A0B41C
+P 9900 4600
+F 0 "#PWR?" H 9900 4350 50  0001 C CNN
+F 1 "GND" H 9905 4427 50  0000 C CNN
+F 2 "" H 9900 4600 50  0001 C CNN
+F 3 "" H 9900 4600 50  0001 C CNN
+	1    9900 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 9900 4600
+Text GLabel 9200 4200 0    50   Input ~ 0
+BUZZER
+Text GLabel 6700 4950 2    50   Output ~ 0
+BUZZER
+$Comp
+L Diode:LL4148 D?
+U 1 1 61A0C2A7
+P 9550 3850
+F 0 "D?" V 9504 3929 50  0000 L CNN
+F 1 "LL4148" V 9595 3929 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9550 3675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9550 3850 50  0001 C CNN
+	1    9550 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9550 4000 9550 4050
+Wire Wire Line
+	9550 4050 9700 4050
+Wire Wire Line
+	9700 4050 9700 4000
+Wire Wire Line
+	9700 4000 9900 4000
+Connection ~ 9900 4000
+Wire Wire Line
+	9900 3800 9750 3800
+Wire Wire Line
+	9750 3800 9750 3700
+Wire Wire Line
+	9750 3700 9550 3700
+Connection ~ 9900 3800
 $EndSCHEMATC

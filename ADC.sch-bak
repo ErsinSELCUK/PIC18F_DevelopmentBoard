@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -193,7 +193,7 @@ U 1 1 619B3A08
 P 5550 4250
 F 0 "U?" H 5221 4296 50  0000 R CNN
 F 1 "LM35-LP" H 5221 4205 50  0000 R CNN
-F 2 "" H 5600 4000 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5600 4000 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm35.pdf" H 5550 4250 50  0001 C CNN
 	1    5550 4250
 	1    0    0    -1  
