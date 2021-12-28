@@ -20,6 +20,7 @@ KiCad ile PIC18F Geliştirme Kartı Tasarımı
 
    https://youtu.be/66v_Mt59N9U
    
+<<<<<<< HEAD
 4. DISPLAY ve BUZZER Blok Tasarımı
 
    https://youtu.be/vx3aJZlbUMc
@@ -31,3 +32,8 @@ KiCad ile PIC18F Geliştirme Kartı Tasarımı
 6. BUTON, KEYPAD, ROTARY ENCODER Blok Tasarımı
 
 	https://youtu.be/hq1_8O-0sWk
+=======
+4. DISPLAY ve BUZZER Bloğu Tasarımı 
+
+   https://youtu.be/vx3aJZlbUMc
+>>>>>>> a19064c47ff3e1da1414ccd170f516a9cc0db0a4
